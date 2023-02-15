@@ -120,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text("black f is not allowed")));
+          const SnackBar(content: Text("All Fields are Required")));
     }
   }
 }
