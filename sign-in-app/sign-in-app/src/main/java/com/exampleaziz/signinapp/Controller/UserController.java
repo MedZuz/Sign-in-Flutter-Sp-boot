@@ -24,6 +24,7 @@ public class UserController {
         return (ResponseEntity<authresponseDTO>) service.login(user);
     }
 
+
     @PostMapping("/register")
     public ResponseEntity<?> Register(@RequestBody User user) {
         return service.register(user);
